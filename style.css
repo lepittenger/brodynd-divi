@@ -1,0 +1,87 @@
+/*
+Theme Name:     Brody ND
+Description:    Child theme for Divi
+Author:         Lauren Pittenger
+Author URI:     http://laurenpittenger.com
+Template:       Divi
+Version:        0.1.0
+*/
+
+@import url("../Divi/style.css");
+
+body {
+color: #525252;
+font-family: Georgia;
+font-size: 14px;
+line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin-top: 20px;
+}
+
+.banner h1, .banner h2 {
+margin-top: 0px;
+}
+
+.banner p {
+font-size: 14px;
+}
+
+#upper-footer {
+width: 960px;
+margin: 10px auto 40px auto;
+text-align: justify;
+text-shadow: 1px 1px 0px #fff;
+color: #919191;
+font-size: 11px;
+font-style: italic;
+}
+
+#logo {
+border: none;
+margin: 63px auto 34px 325px;
+clear: both;
+}
+
+.nav li ul li a, #mobile_menu a {
+width: 196px;
+padding: 10px 10px 10px 10px;
+background-image: none;
+}
+
+#switcher .item {
+margin-right: 17px;
+float: left;
+height: 98px;
+width: 93px;
+background: url(images/slider-thumb-shadow.png) no-repeat bottom;
+position: relative;
+}
+
+/* MENU STYLES */
+#navwrap {
+width: 960px;
+background-image: url(images/nav-bg-vintage-brown.png);
+text-align: left;
+position: relative;
+z-index: 14;
+}
+
+.nav li a {
+font-size: 13px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+float: left;
+}
+
+.nav li li a:link, .nav li li a:visited {
+display: block;
+height: auto;
+float: left;
+background-color: #AE6507;
+}
+
+hr {
+	margin: 30px;
+}
