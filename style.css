@@ -22,3 +22,11 @@ Version:        0.1.0
 	line-height: 1.7em;
 	cursor: pointer;
 }
+
+.blog .et_pb_post {
+	float: left;
+}
+.blog .et_pb_post .post-thumb {
+	float: left;
+	margin-right: 30px;
+}
