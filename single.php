@@ -23,7 +23,7 @@
 					$thumbnail = get_thumbnail( $width, $height, $classtext, $titletext, $titletext, false, 'Blogimage' );
 					$thumb = $thumbnail["thumb"];
 
-					if ( 'on' === et_get_option( 'divi_thumbnails', 'on' ) && '' !== $thumb )
+					if ( 'on' === et_get_option( 'divi_thumbnails', 'on' ) && '' !== $thumb && !in_category('6') )
 						echo '<span class="blogimg">';
 						print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height );
 						echo '</span>';

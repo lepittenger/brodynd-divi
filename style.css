@@ -54,3 +54,6 @@ Version:        0.1.0
 .blogimg img {
 	max-width: 100%;
 }
+a {
+	word-break: break-word;
+}
